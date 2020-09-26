@@ -1,5 +1,6 @@
-\beamer@sectionintoc {1}{Presentacion}{3}{0}{1}
-\beamer@sectionintoc {2}{Acceso Materiales del Curso}{4}{0}{2}
-\beamer@sectionintoc {3}{Acceso a Servidor}{5}{0}{3}
-\beamer@sectionintoc {4}{Introduccion a linux}{6}{0}{4}
-\beamer@sectionintoc {5}{Hola Mundo Python}{7}{0}{5}
+\beamer@sectionintoc {1}{Presentacion (30m) }{3}{0}{1}
+\beamer@sectionintoc {2}{Acceso Materiales del Curso (30) }{4}{0}{2}
+\beamer@sectionintoc {3}{Acceso a Servidor (40m) }{5}{0}{3}
+\beamer@sectionintoc {4}{Receso (20m) }{6}{0}{4}
+\beamer@sectionintoc {5}{Introduccion a linux (40m) }{7}{0}{5}
+\beamer@sectionintoc {6}{Hola Mundo Python (20m) }{8}{0}{6}

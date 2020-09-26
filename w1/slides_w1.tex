@@ -9,10 +9,16 @@
 \usepackage{listings}
 \usepackage{hyperref}
 
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!50!red,
+  urlcolor=green!70!black
+}
 
 \begin{document}
 \title{Universidad Veracruzana}  
-\author{Adolfo Centeno Tellez}
+\subtitle{Centro de Investigaciones Cerebrales\\COMPUTACION CIENTIFICA Y BIOINFORMATICA}
+\author{Adolfo Centeno, Gonzalo Aranda}
 \date{\today} 
 
 \begin{frame}
@@ -24,7 +30,7 @@
 \end{frame} 
 
 
-\section{Presentacion}
+\section{Presentacion (30m) }
 
 \begin{frame} 
 
@@ -39,7 +45,7 @@
 \end{frame}
 
 
-\section{Acceso Materiales del Curso}
+\section{Acceso Materiales del Curso (30) }
 
 \begin{frame}
 
@@ -51,16 +57,16 @@ Materiales del Curso
 \item
     Instalar git desde \href{https://git-scm.com/downloads}{https://git-scm.com/downloads}.
 \item
-	Clonar repositorio desde consola: 
- 	git clone https://github.com/adsoftsito/python
+	Clonar repositorio desde consola: \\ 
+ 	\textbf{git clone https://github.com/adsoftsito/python}
+	
 
 \end{enumerate} 
-
 
 \end{frame}
 
 
-\section{Acceso a Servidor}
+\section{Acceso a Servidor (40m) }
 
 \begin{frame}
 
@@ -69,18 +75,29 @@ Acceso a servidor por SSH
 
 \begin{enumerate}
 \item
-	cd python
+	\textbf{cd python}
 \item
-	cd ssh
+	\textbf{cd ssh}
 \item
-	ssh -i user user@104.198.244.0
+	\textbf{ssh -i user user@104.198.244.0}
 \end{enumerate} 
 
 
 \end{frame}
 
 
-\section{Introduccion a linux}
+\section{Receso (20m) }
+
+\begin{frame}
+
+
+Receso ...
+
+
+\end{frame}
+
+
+\section{Introduccion a linux (40m) }
 
 \begin{frame}
 
@@ -89,9 +106,12 @@ Introduccion a linux
 
 \begin{enumerate}
 \item
-	Comandos basicos en linux \href{https://github.com/adsoftsito/python}{https://github.com/adsoftsito/python}.
+	 
+	Practica: \href{https://github.com/adsoftsito/python/blob/master/w1/linuxcommands.pdf}{Linux shell commands}.
+	
+    
 \item
-	Editor vi \href{https://github.com/adsoftsito/python}{https://github.com/adsoftsito/python}.
+	Practica: \href{https://github.com/adsoftsito/python/blob/master/w1/vi-editor.pdf}{vi editor}.
 
 \end{enumerate} 
 
@@ -99,15 +119,25 @@ Introduccion a linux
 \end{frame}
 
 
-\section{Hola Mundo Python}
+\section{Hola Mundo Python (20m) }
 
 \begin{frame}
 
 
-\begin{block}{SSH}
+Hola mundo Python
+
+\begin{enumerate}
+\item
+	\textbf{vi holamundo.py}
+    
+\item
+	\textbf{print ("Hola Mundo Python !")}
 
 
-\end{block}
+\item
+	\textbf{python3 holamundo.py}
+	
+\end{enumerate} 
 
 
 \end{frame}
