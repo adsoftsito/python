@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Presentacion}{3}{0}{1}
+\beamer@sectionintoc {2}{Acceso Materiales del Curso}{4}{0}{2}
+\beamer@sectionintoc {3}{Acceso a Servidor}{5}{0}{3}
+\beamer@sectionintoc {4}{Introduccion a linux}{6}{0}{4}
+\beamer@sectionintoc {5}{Hola Mundo Python}{7}{0}{5}
