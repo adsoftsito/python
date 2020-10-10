@@ -4,7 +4,7 @@ city = " Orizaba"
 state = "Veracruz"
 country = "Mexico"
 
-message = "name = %s, age = %s \n"
+message = "my name is %s, im  %s years old \n"
 print message%(name, age)
 
 message = "\tMy name is %s \n\tI am %s years old\n\tI am from %s %s, %s"

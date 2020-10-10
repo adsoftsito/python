@@ -1,22 +1,21 @@
-age1 = 12
-age2 = 18
-
-
-print "age1 = ", age1
-print "age2 = ", age2
-print " + ", age1 + age2
-print " - ", age1 - age2
-print " * ", age1 * age2
+age1 = 9.0
+age2 = 18.0
+# print "age1 = ", age1
+# print "age2 = ", age2
+sumage = age1 + age2
+# print " + ", sumage
+# print " - ", age1 - age2
+# print " * ", age1 * age2
 print " / ", age1 / age2
-print " % ", age2 % age1
+# print " % ", age2 % age1
 
 message = "Today was a beatiful day"
 firstname = "adsoft"
 lastname = "sito"
-print message
-print "firstname = ", firstname
-print "lasttname = ", lastname
-print " + ", firstname + lastname
+# print message
+# print "firstname = ", firstname
+# print "lasttname = ", lastname
+# print " + ", firstname + ", " + lastname + " " +  message
 
 adn = "AACTGTGAACTAACGTCTTAACGACTGGTACGTAC"
 print "adn = ", adn
