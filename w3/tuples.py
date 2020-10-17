@@ -10,7 +10,7 @@ print len(adn3)
 # error, tuples are read only
 # adn1[0] = "T"
 
-adn4 = ("A")
-adn4 = adn4 * 8
+adn4 = ("A", "C", "G")
+adn4 = adn4 * 10
 print adn4
 
