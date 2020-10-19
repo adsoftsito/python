@@ -5,34 +5,35 @@
 n = 100
 # list 1, 2, 3.. n
 #for i in range(1, n+1):
-  #print i
+#  print i
 
 # list 1, 3, 5,. n
 #for i in range(1, n+1, 2):
-  #print i
+#  print i
 
 # list 2, 4, 6.. n
 #for i in range(2, n+1, 2):
-  #print i
+#  print i
 
 # list 10, 20, 30.. n
-#for i in range(10, n+1, 10):
+#n = 15
+#for i in range(n, (n * 10)+1, n):
 #  print i
 
 # list n, ... 3, 2, 1
-#for i in range(n, 0, -1):
+#for i in range(n, 0, -5):
 #  print i
 
 #
 # sum, average 1..n example
 #
-n = 5
-sum=0
+#n = 5
+#sum=0
 
 #for i in range(1, n+1):
 #  print i
-#  sum = sum + i
-
+#  sum += i
+  # sum = sum + i
 #avg = sum/n	
 #print "sum 1..",n, sum
 #print "average : ",avg
@@ -43,7 +44,7 @@ sum=0
 #
 
 #fact=1
-#n = 3
+#n = 1000
 #for i in range(1,n+1):
 #  print i
 #  fact = fact * i
