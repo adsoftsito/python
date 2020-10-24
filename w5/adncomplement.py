@@ -85,10 +85,77 @@ codons = {
   "GGG": "Glicina"
 }
 
+aminoacidos = {
+  "UUU": "F",
+  "UUC": "F",
+  "UUA": "L",
+  "UUG": "L",
+  "UCU": "S",
+  "UCC": "S",
+  "UCA": "S",
+  "UCG": "S",
+  "UAU": "Y",
+  "UAC": "Y",
+  "UAA": "",
+  "UAG": "",
+  "UGU": "C",
+  "UGC": "C",
+  "UGA": "",
+  "UGG": "W",
+  "CUU": "L",
+  "CUC": "L",
+  "CUA": "L",
+  "CUG": "L",
+  "CCU": "P",
+  "CCC": "P",
+  "CCA": "P",
+  "CCG": "P",
+  "CAU": "H",
+  "CAC": "H",
+  "CAA": "Q",
+  "CAG": "Q",
+  "CGU": "R",
+  "CGC": "R",
+  "CGA": "R",
+  "CGG": "R",
+  "AUU": "I",
+  "AUC": "I",
+  "AUA": "I",
+  "AUG": "M",
+  "ACU": "T",
+  "ACC": "T",
+  "ACA": "T",
+  "ACG": "T",
+  "AAU": "N",
+  "AAC": "N",
+  "AAA": "L",
+  "AAG": "L",
+  "AGU": "S",
+  "AGC": "S",
+  "AGA": "R",
+  "AGG": "R",
+  "GUU": "V",
+  "GUC": "V",
+  "GUA": "V",
+  "GUG": "V",
+  "GCU": "A",
+  "GCC": "A",
+  "GCA": "A",
+  "GCG": "A",
+  "GAU": "D",
+  "GAC": "D",
+  "GAA": "E",
+  "GAG": "E",
+  "GGU": "G",
+  "GGC": "G",
+  "GGA": "G",
+  "GGG": "G"
+}
 
 nucl_codon = [];
 
-dna = "ACCGTT"
+#dna = "ACCGTT"
+dna = "ATGTACTCATTCGTTTCGGAAGAGACAGGTACGTTAATAGTTAATAGCGTACTTCTTTTTCTTGCTTTCGTGGTATTCTTGCTAGTTACACTAGCCATCCTTACTGCGCTTCGATTGTGTGCGTACTGCTGCAATATTGTTAACGTGAGTCTTGTAAAACCTTCTTTTTACGTTTACTCTCGTGTTAAAAATCTGAATTCTTCTAGAGTTCCTGATCTTCTGGTCTAA"
 dna_complement = ""
 rna = ""
 
@@ -123,7 +190,7 @@ for x in dna:
 
 print "rna "
 
-rna = rna[::-1]
+# rna = rna[::-1]
 
 print rna
 
@@ -136,5 +203,9 @@ for i in range(0, n, 3):
 
 n = len(nucl_codon)
 print "total codons ", n
+proteina = ""
 for i in range(0,n):
-  print i, nucl_codon[i], codons[nucl_codon[i]]
+  print i, nucl_codon[i], aminoacidos[nucl_codon[i]]
+  proteina = proteina + aminoacidos[nucl_codon[i]]
+
+print proteina
