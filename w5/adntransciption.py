@@ -10,6 +10,7 @@ nucl_complement = {
                "T":"A",
                "G":"C" 
 	      }
+
 rna_transcription = {
 	       "A":"U",
 	       "C":"G",
