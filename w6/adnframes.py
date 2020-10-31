@@ -169,6 +169,7 @@ dna_complement = ""
 rna = ""
 
 #f = open("ng_005816.txt", "r")
+#f = open("covid19.txt", "r")
 #for x in f:
 #  dna = dna + x
 #dna = dna.replace("\n","")
