@@ -1,0 +1,5 @@
+1.- obtener genbak una secuencia marco de lectura abierta ORF
+2.- determinar que regiones generan proteina 
+3.- volverlo ARN (T -> U)
+4.- NC_045512
+
