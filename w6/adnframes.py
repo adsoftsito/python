@@ -223,6 +223,7 @@ for i in range(0, n, 3):
   nucl_codon.append(codon)
   if codon == "AUG":
     frame_start = 1
+    myframe = "AUG"
   else:
     if (frame_start == 1):
       if (codon == "UAA") or (codon=="UAG") or (codon=="UGA"):
