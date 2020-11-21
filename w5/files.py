@@ -10,7 +10,7 @@ adn = adn.replace('\n','')
 
 n = len(adn)
 print " adn length = ", n
-#print adn
+print adn
 
 #for i in range(0, n):
 #  print i+1,  adn[i]

@@ -13,12 +13,12 @@ n = len(adn)
 # C G
 
 print " adn length = ", n
-#for i in range(0, n):
-#  print i+1,  adn[i]
+for i in range(0, n):
+  print i+1,  adn[i]
 
-#print "\n  reverse \n" 
-#for i in range(n-1, -1, -1):
-#  print i+1, adn[i]
+print "\n  reverse \n" 
+for i in range(n-1, -1, -1):
+  print i+1, adn[i]
 
 totalA=0
 totalC=0

@@ -156,23 +156,23 @@ nucl_codon = [];
 frames = [];
 proteins = [];
 
-dna  = "ATGTACTCATTCGTTTCGGAAGAGACAGGTACGTAA"  
-dna += "ATGGTTAATAGCGTACTTCTTTTTCTTGCTTTCGTG"  
-dna += "GTATTCTTGCTAGTTACACTAGCCATCCTTACTTAG"  
-dna += "CTTCGATTGTGTGCGTACTGCTGCAATATTGTTAAC" 
-dna += "ATGAGTCTTGTAAAACCTTCTTTTTACGTTTACTCT"  
-dna += "TGAGTTAAAAATCTGAATTCTTCTAGAGTTCCTGAT"  
-dna += "ATGCTGGTCTGA"
+#dna  = "ATGTACTCATTCGTTTCGGAAGAGACAGGTACGTAA"  
+#dna += "ATGGTTAATAGCGTACTTCTTTTTCTTGCTTTCGTG"  
+#dna += "GTATTCTTGCTAGTTACACTAGCCATCCTTACTTAG"  
+#dna += "CTTCGATTGTGTGCGTACTGCTGCAATATTGTTAAC" 
+#dna += "ATGAGTCTTGTAAAACCTTCTTTTTACGTTTACTCT"  
+#dna += "TGAGTTAAAAATCTGAATTCTTCTAGAGTTCCTGAT"  
+#dna += "ATGCTGGTCTGA"
 
-#dna = ""
+dna = ""
 dna_complement = ""
 rna = ""
 
-#f = open("ng_005816.txt", "r")
-#f = open("covid19.txt", "r")
-#for x in f:
-#  dna = dna + x
-#dna = dna.replace("\n","")
+#f = open("nc_005816.txt", "r")
+f = open("covid19.txt", "r")
+for x in f:
+  dna = dna + x
+dna = dna.replace("\n","")
 
 
 # complementary seq 
@@ -190,11 +190,11 @@ print " dna length complementary  = ", n
 #for i in range(0, n):
 #  print i, dna[i], dna_complement[i]
 
-print "dna molde : "
-print dna
+print "dna codificante : "
+#print dna
 
 print "dna complement : "
-print dna_complement
+#print dna_complement
 
 #
 # rna transcription
@@ -206,7 +206,7 @@ for x in dna:
 print "rna "
 
 #rna = rna[::-1]
-print rna
+#print rna
 
 #
 # codon create
@@ -218,21 +218,33 @@ myframe = ""
 frame_start = 0
 
 print "frames : "
-for i in range(0, n, 3):
-  codon = rna[i:i+3]
-  nucl_codon.append(codon)
-  if codon == "AUG":
-    frame_start = 1
-    myframe = "AUG"
-  else:
-    if (frame_start == 1):
-      if (codon == "UAA") or (codon=="UAG") or (codon=="UGA"):
-        frame_start = 0
-        frames.append(myframe)
-        myframe = ""
-      else:
-        myframe = myframe + codon
-      
+
+for c in range(0, 3):
+  print "***"
+  print c, rna[c]
+  #print rna[c:n-(c+1)]
+
+  myframe = ""
+  frame_start = 0
+
+  for i in range(c, n, 3):
+    codon = rna[i:i+3]
+    #print codon
+    nucl_codon.append(codon)
+    if (codon == "AUG") and (frame_start == 0):
+      frame_start = 1
+      myframe = "AUG"
+      print "start ", i
+    else:
+      if (frame_start == 1):
+        if (codon == "UAA") or (codon=="UAG") or (codon=="UGA"):
+          frame_start = 0
+          frames.append(myframe)
+          #print "found ! \n", myframe   
+          myframe = ""
+          print "stop ", i
+        else:
+          myframe = myframe + codon
 
 n = len(frames)
 
@@ -249,6 +261,8 @@ for i in range(0,n):
   for j in range(0, y, 3):
     codon = myframe[j:j+3]
     myprotein += aminoacidos[codon]
+    #print codon
+    #print myprotein
   proteins.append(myprotein)
 
 
@@ -256,7 +270,11 @@ for i in range(0,n):
 # frames, protein, legth
 #
 
+print '\nORFs'
+
 for i in range(0,n):
-  print i+1, frames[i], len(frames[i])
-  print proteins[i], len(proteins[i])
-  print ""
+  #print i+1, frames[i], len(frames[i])
+  if (len(proteins[i]) > 100):
+    print "\n\n"
+    print proteins[i], len(proteins[i])
+  #print ""

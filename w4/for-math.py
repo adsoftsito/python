@@ -2,7 +2,7 @@
 # math examples
 
 
-n = 100
+n = 10
 # list 1, 2, 3.. n
 #for i in range(1, n+1):
 #  print i
@@ -21,7 +21,7 @@ n = 100
 #  print i
 
 # list n, ... 3, 2, 1
-#for i in range(n, 0, -5):
+#for i in range(n, 0, -1):
 #  print i
 
 #
@@ -43,23 +43,23 @@ n = 100
 # fact example
 #
 
-#fact=1
-#n = 1000
-#for i in range(1,n+1):
-#  print i
-#  fact = fact * i
+fact=1
+n = 5
+for i in range(1,n+1):
+  print i
+  fact = fact * i
 
-#print "n! = ", fact
+print "n! = ", fact
 
 
 #
 # x^3 function
 #
 
-for i in range(-10, 11, 1):
-  print i
+#for i in range(-10, 11, 1):
+#  print i
 
-print "\n fx \n"
+#print "\n fx \n"
 
 for i in range(-10, 11, 1):
   fx = i*i*i

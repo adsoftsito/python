@@ -15,7 +15,7 @@ lastname = "sito"
 # print message
 # print "firstname = ", firstname
 # print "lasttname = ", lastname
-# print " + ", firstname + ", " + lastname + " " +  message
+print " + ", firstname + ", " + lastname + " " +  message
 
 adn = "AACTGTGAACTAACGTCTTAACGACTGGTACGTAC"
 print "adn = ", adn

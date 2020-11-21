@@ -8,6 +8,7 @@ adn3 = adn1 + adn2
 print adn3
 print len(adn3)
 # error, tuples are read only
+
 # adn1[0] = "T"
 
 adn4 = ("A", "C", "G")
