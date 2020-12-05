@@ -1,0 +1,42 @@
+Rubrica Proyecto de Bioinformatica.
+
+
+TAREAS - VALOR (20 pts)
+
+Subir a su repositorio personal los ejercicios de clase
+
+- hello_world, ciclos, if, files, list, tuples, ejercicios de ORF
+NOTA: Entregar url del repositorio de github.com
+
+
+
+
+PROYECTO - VALOR (80 pts)
+
+Descripción del problema:
+
+Codificar un programa en python para encontrar la proteina E del coronavirus y comparar 
+resultados contra los proporcionados en NCBI. Una vez validados los resultados, instalar
+Autodock Tools para realizar Docking Molecular de la proteina E con la Amantadina como ligando. Reportar hallazgos en Latex.
+
+
+Realizar las siguientes actividades
+
+
+1.- Crear un repositorio especial para la entrega en repositorio (github.com)  -> 10pts
+
+
+2.-  Reporte Tecnico en latex (subir .tex y .pdf),  (Maximo 10 cuartillas)  -> 10 pts
+
+   - Introduccion
+   - Descripcion del problema a resolver
+   - Resultados
+   - Conclusiones
+
+3.- Codigo Fuente en python para encontrar la proteina E          -> 25 pts
+
+4.- Evidencias de Docking Molecular usando Autodock Tools (Pantallas, archivos generados) -> 25 pts 
+
+5.- Presentacion ejecutiva en latex usando beamer de máximo 10 slides (subir .tex y .pdf) -> 5 pts
+
+6.- Video corto de su aportación (subirlo a su repositorio o youtube.com)                            -> 5 pts    (5min maximo)
