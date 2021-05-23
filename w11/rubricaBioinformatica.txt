@@ -1,14 +1,14 @@
 Rubrica Proyecto de Bioinformatica.
 
 
-TAREAS - VALOR (20 pts)
+OK - > TAREAS - VALOR (20 pts)
 
 Subir a su repositorio personal los ejercicios de clase
 
 - hello_world, ciclos, if, files, list, tuples, ejercicios de ORF
 NOTA: Entregar url del repositorio de github.com
 
-
+( ADOLFO )
 
 
 PROYECTO - VALOR (80 pts)
@@ -23,20 +23,21 @@ Autodock Tools para realizar Docking Molecular de la proteina E con la Amantadin
 Realizar las siguientes actividades
 
 
-1.- Crear un repositorio especial para la entrega en repositorio (github.com)  -> 10pts
+OK - > 1.- Crear un repositorio especial para la entrega en repositorio (github.com)  -> 10pts ( ADOLFO )
 
 
-2.-  Reporte Tecnico en latex (subir .tex y .pdf),  (Maximo 10 cuartillas)  -> 10 pts
-
+*** 2.-  Reporte Tecnico en latex (subir .tex y .pdf),  (Maximo 10 cuartillas)  -> 10 pts NOTA: aceptar en Microsoft Word
    - Introduccion
    - Descripcion del problema a resolver
    - Resultados
    - Conclusiones
 
-3.- Codigo Fuente en python para encontrar la proteina E          -> 25 pts
+*** 4.- Evidencias de Docking Molecular usando Autodock Tools (Pantallas, archivos generados) -> 25 pts 
 
-4.- Evidencias de Docking Molecular usando Autodock Tools (Pantallas, archivos generados) -> 25 pts 
 
-5.- Presentacion ejecutiva en latex usando beamer de máximo 10 slides (subir .tex y .pdf) -> 5 pts
+OK ->  3.- Revisar y documentar el codigo Fuente en python para encontrar la proteina E          -> 20 pts ( ADOLFO )
 
-6.- Video corto de su aportación (subirlo a su repositorio o youtube.com)                            -> 5 pts    (5min maximo)
+
+*** 5.- Presentacion ejecutiva en latex usando beamer de máximo 10 slides (subir .tex y .pdf) -> 5 pts NOTA: aceptar en Powerpoint o PDF
+
+*** DELETE 6.- Video corto de su aportación (subirlo a su repositorio o youtube.com)                            -> 5 pts    (5min maximo)

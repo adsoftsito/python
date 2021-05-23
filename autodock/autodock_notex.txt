@@ -1,0 +1,41 @@
+NOTAS
+
+
+1.- AUTODOCK  es un proceso automatizado para predecir la interaccion de ligandos con objetivos biomacromoleculares.
+
+2.- Es parte del campo del Diseño de Farmacos Asistido por Computadora
+
+3.- Las estructuras moleculares purden agentes bioactivos en el control de enfermedades de plantas o animales.
+
+4.- El objetivo de Autodock es proveer una herramienta computacional para ayudar a los investigadores en el analisis biomolecular.
+
+5.- En Docking se debe balancear 2 requerimientos: un proceso exacto y robusto y el costo computacional para llevarlo a cabo.
+
+6.- El procedimiento ideal es encontar el minimo global en la interaccion de energia entre el sustrato y la proteina, explorando todos los DOF del sistema.
+
+7.- Docking debera ser ejecutado en una workstation con recursos computacionales importantes, para ejecutar procesos como refinamiento en cristalografia
+
+8.- Autodock combina 2 metodos para alcanzar sus objetivos: 
+  - Rapid Grid-based energy evaluation
+  - Efficient search of torsional freedom
+
+9.- La version actual de Autodock usa el algoritmo Genetico Lamarckian y una funcion empirica de puntuacion en liberacion de energia
+
+10.- El software Autodock Vina usa una simple funcion de scoring que permite un metodo de busqueda mas rapido y resultados reproducibles para sistemas grandes con mas de 20 enlaces flexibles.  
+
+
+
+Pasos de Autodock
+
+1.- Crear Archivos (File Coordinate) PDBQT.
+  - Autodock 4.2 esta configurado para usar un modelo de proteina y ligando que incluya atomos de POLAR HYDROGEN, pero no atomos de hidrogeno enlazados a atomos de carbono.
+  - Los archivos PDBQT incluyen informacion sobre TORSIONAL grados de libertad
+
+2.- Autogrid Calculation
+  - 
+
+3.- Docking usando Autodock
+
+
+4.- Analisis usando Autodock tools
+ 
