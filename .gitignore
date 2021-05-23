@@ -6,3 +6,4 @@
 **/*.gz
 **/*.toc
 .DS_Store
+pymks/pymks
